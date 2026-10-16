@@ -1,0 +1,22 @@
+baseURL = "https://<picapica>.github.io/"
+languageCode = "ru-ru"
+title = "Мой блог"
+theme = "PaperMod"
+
+[params]
+  author = "Твоё имя"
+  description = "Личный блог"
+
+[params.homeInfoParams]
+  Title = "Привет 👋"
+  Content = "Пишу про код и жизнь."
+
+[[menu.main]]
+  name = "Статьи"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "Обо мне"
+  url = "/about/"
+  weight = 20
