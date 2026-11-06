@@ -7,3 +7,7 @@ theme = "PaperMod"
     name = "Главная"
     url = "/"
     weight = 1
+  [[menu.main]]
+    name = "Посты"
+    url = "/posts/"
+    weight = 2
