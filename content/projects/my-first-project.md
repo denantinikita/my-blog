@@ -1,16 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
-tags: []
-tech: []
-repo: ""
-demo: ""
-summary: ""
+title: "Мой первый проект"
+date: 2025-01-01
+draft: false
+description: "Описание проекта"
+tags: ["go", "hugo"]
 ---
-
-## О проекте
-
-## Стек
-
-## Ссылки
